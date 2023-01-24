@@ -1,0 +1,69 @@
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.Calculator {
+  border: 3px solid rgb(144, 144, 144);
+  outline: 1px solid rgb(0, 0, 0);
+  width: 240px;
+  height: 310px;
+  position: relative;
+}
+
+button {
+  position: relative;
+  outline: 1px solid black;
+  background-color: rgb(103, 103, 103);
+  border: none;
+  cursor: default;
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+button:hover {
+  border: 2px solid grey;
+  color: black;
+}
+
+.display {
+  position: relative;
+  text-align: right;
+  outline: 1px solid black;
+  height: 60px;
+  background-color: black;
+  font-family: 'Digital Numbers', sans-serif;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calc-button {
+  height: 50px;
+  width: 60px;
+}
+
+.clear {
+  background-color: rgb(253, 75, 75);
+  /* outline: 1px solid black; */
+  border: none;
+}
+
+.operation {
+  background-color: rgb(147, 147, 147);
+}
+
+.big {
+  width: 120px;
+  height: 50px;
+}
+
+.equals {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 60px;
+  height: 100px;
+  background-color: rgb(72, 137, 139);
+}
